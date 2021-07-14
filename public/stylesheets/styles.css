@@ -35,6 +35,12 @@ body {
     flex-wrap: wrap;
     padding-bottom: 100px;
 }
+
+#random-beer-main {
+    margin: 50px 200px;
+    display: flex;
+    justify-content: start;
+}
 /* 
     CLASSES
 */
@@ -116,4 +122,12 @@ body {
 .beer-card-img {
     height: 200px;
     align-self: center;
+}
+
+.beer-content {
+    margin-left: 80px;
+}
+
+.random-beer-img {
+    height: 300px;
 }
