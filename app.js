@@ -4,6 +4,7 @@ const hbs = require('hbs');
 const path = require('path');
 const PunkAPIWrapper = require('punkapi-javascript-wrapper');
 
+require('dotenv').config();
 const app = express();
 const punkAPI = new PunkAPIWrapper();
 
